@@ -1,0 +1,6 @@
+ISSUE 1: target="_blank" everywhere in navigation
+ISSUE 2: <thead> missing <tr>
+ISSUE 3: Repeated id="topic_checkbox"
+ISSUE 4: label for="gender" is meaningless
+ISSUE 5: <pre> used for layout text
+ISSUE 6: Missing name on age input

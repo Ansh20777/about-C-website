@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Form</title></head>
+    <body>
+
+        <header id="top">
+        <h2>C Programming Hub</h2>
+        <h4><em>Master the language that powers everything</em></h4>
+        <p>Navigation links: </p>
+        <nav>
+            <a href="1_index.html" target="_blank">Home</a><br>
+            <a href="2_gallery.html" target="_blank">Gallery</a><br>
+            <a href="3_contact.html" target="_blank">Contact us</a><br>
+        </nav>
+        </header>
+
+<hr>
+
+        <main>
+            <section>
+                <pre>
+                    <big>Fill this form</big>
+                    <small>         to register</small>
+                </pre>
+
+                <form method="get" action="">
+                    <h3><u>Personal Details</u></h3>
+                    
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" placeholder="Your name(30 characters)" maxlength="30" required><br><br>
+
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="someone123@gmail.com" name="email"><br><br>
+
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" min="10" max="100" placeholder="10-100"><br><br>
+
+                    <label for="gender">Gender: </label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female<br><br>
+
+                    <label for="country">Country: </label>
+                    <select name="country" id="country">
+                        <option value="ind">India</option>
+                        <option value="aus">Australia</option>
+                        <option value="usa">USA</option>
+                    </select><br><br>
+
+                    <h3><u>C Programming Preferences</u></h3>
+
+                    <label for="topic_checkbox">Select topics you want to explore: </label>
+                    <input type="checkbox" id="topic_checkbox" name="topics" value="Loops">Loops
+                    <input type="checkbox" id="topic_checkbox" name="topics" value="Pointers">Poointers
+                    <input type="checkbox" id="topic_checkbox" name="topics" value="Functions">Functions
+                    <br><br>
+
+                    <label for="why">Why you want to learn C:</label>
+                    <textarea name="why" id="why" rows="1" cols="25"></textarea><br><br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+<hr>
+
+        <footer>
+            <h4>Thank you!</h4>
+         <p>
+            <big>Contact us:</big><br>
+            <a href="mailto:cprogramminghub123@gmail.com">Email</a><br>
+            <a href="tel:123456789">Phone</a>
+         </p>
+         <p>-----------------------------------</p> 
+        <a href="#top">Back to top</a>
+        <p>&copy; 2025 C Programming Hub</p>
+        </footer>
+    </body>
+</html>
